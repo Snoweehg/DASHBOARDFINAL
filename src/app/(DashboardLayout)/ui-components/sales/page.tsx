@@ -86,21 +86,11 @@ function CustomTabPanel(props) {
                     <Grid item xs={6}>
                         <TextField label="Cliente" variant="outlined" fullWidth />
                     </Grid>
-                    <Grid item xs={6}>
-                        <TextField label="Expiracion" variant="outlined" fullWidth />
-                    </Grid>
-                    <Grid item xs={6} style={{ visibility: 'hidden' }}>
-                        <TextField label="Campo 3" variant="outlined" fullWidth disabled />
-                    </Grid>
-                    <Grid item xs={6}>
-                        <TextField label="Lista de Precio" variant="outlined" fullWidth />
-                    </Grid>
-                    <Grid item xs={6} style={{ visibility: 'hidden' }}>
-                        <TextField label="Campo 5" variant="outlined" fullWidth disabled />
-                    </Grid>
-                    <Grid item xs={6}>
-                        <TextField label="Plazos de Pago" variant="outlined" fullWidth />
-                    </Grid>
+                    <div style={{ margin: '50px', marginTop: '17px' }}>
+                <p>Expiracion</p>
+                <p>Lista de Precio</p>
+                <p>Plaso de Pago</p> 
+            </div>
                 </Grid>
              
              <br></br>
