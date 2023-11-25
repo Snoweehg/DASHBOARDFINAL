@@ -1,10 +1,6 @@
 'use client';
 import React from 'react';
-import {
-    Paper,
-    Grid,
-    Stack,
-    TextField,
+import {Paper,Grid,Stack,TextField,
 } from '@mui/material';
 import BaseCard from '@/app/(DashboardLayout)/components/shared/BaseCard';
 import { createTheme, ThemeProvider, styled } from '@mui/material/styles';
@@ -22,7 +18,7 @@ import { CheckBox } from '@mui/icons-material';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-
+import MiComponente from "@/app/(DashboardLayout)/ui-components/componentes/Tabla";
 
 
 function CustomTabPanel(props) {
@@ -134,6 +130,13 @@ function CustomTabPanel(props) {
                 <h3>TOTAL: &nbsp; &nbsp; &nbsp; S/. 236.00</h3>
                 
               </div>
+          </CustomTabPanel>
+
+          <CustomTabPanel value={value} index={1}>
+          <h4>tablas</h4>
+          <div>
+            <MiComponente />
+          </div>
           </CustomTabPanel>
             
           
